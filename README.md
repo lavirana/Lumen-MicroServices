@@ -1,7 +1,8 @@
 # Lumen-Micro-services-Monorepo
 A practical Laravel Lumen implementation of the micro‑service pattern. This repository contains three independent services that work together:
 
-<img width="759" alt="Screenshot 2025-06-27 at 9 07 48 PM" src="https://github.com/user-attachments/assets/1339b6a2-280e-4133-965d-147bf0778ba9" />
+<img width="759" alt="Screenshot 2025-06-27 at 9 07 48 PM" src="https://github.com/user-attachments/assets/ab948902-aa97-4710-9078-44fc6ce29906" />
+
 
 auth-service calls user-service with Guzzle after every successful registration so the profile table stays in sync. All services are 100 % decoupled and can be scaled and deployed independently.
 
@@ -84,9 +85,9 @@ $client->post('/api/users', [
 
 This keeps profile data in user_db synced without sharing a database.
 
-<img width="917" alt="Screenshot 2025-06-27 at 9 14 47 PM" src="https://github.com/user-attachments/assets/ba870629-787f-42a0-9bdb-2eb881996d32" />
+<img width="917" alt="Screenshot 2025-06-27 at 9 14 47 PM" src="https://github.com/user-attachments/assets/dd9c6c01-79e7-4d23-ae82-823b6c7c0b59" />
 
-<img width="843" alt="Screenshot 2025-06-27 at 9 15 00 PM" src="https://github.com/user-attachments/assets/61692f7c-880d-4485-a0f0-78bae1ec8dca" />
+<img width="843" alt="Screenshot 2025-06-27 at 9 15 00 PM" src="https://github.com/user-attachments/assets/2b7a4fcf-814d-4018-b142-bd4c6bebd67f" />
 
 
 🧪 **Running tests**
